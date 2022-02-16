@@ -1,0 +1,36 @@
+.info-company {
+  flex-basis: 570px;
+  color: $dark-grey-number;
+  padding-top: 21px;
+}
+
+.info-company__wrapper-company {
+  margin-bottom: 28px;
+}
+
+.info-company__title {
+  font-size: 33px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.info-company__text:not(:last-child) {
+  margin-bottom: 22px;
+}
+
+.info-company__activity {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-column-gap: 16px;
+}
+
+.info-company__activity-title {
+  font-size: 24px;
+  grid-column: 1/-1;
+  margin-bottom: 35px;
+}
+
+.info-company__activity-text {
+  margin-bottom: 22px;
+}
+

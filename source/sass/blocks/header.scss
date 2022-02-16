@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 46px;
+  padding-bottom: 54px;
+}
+
+.header__data {
+  padding-top: 22px;
+  font-size: 18px;
+  color: $dark-grey;
+}
+
+.header__phone {
+  padding-right: 21px;
+}
+
+.header__phone-link {
+  font-size: 31px;
+  line-height: 46px;
+  font-weight: bold;
+  color: $dark-grey-number;
+}

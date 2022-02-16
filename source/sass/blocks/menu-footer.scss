@@ -1,0 +1,14 @@
+.menu-footer {
+  padding-right: 120px;
+}
+
+.menu-footer__item {
+  &:not(:last-child) {
+    padding-bottom: 10px;
+  }
+}
+
+.menu-footer__link {
+  text-align: left;
+  display: inline-flex;
+}

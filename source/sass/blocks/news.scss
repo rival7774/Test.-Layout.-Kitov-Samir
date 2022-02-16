@@ -1,0 +1,28 @@
+.news {
+  padding: 12px 53px 33px 33px;
+  background-color: $dark-grey;
+  flex-basis: 350px;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+}
+
+.news__title {
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.news__text {
+  margin-bottom: 22px;
+}
+
+.news__time {
+  display: block;
+}
+
+.news__link {
+  margin-top: 52px;
+  align-self: end;
+}

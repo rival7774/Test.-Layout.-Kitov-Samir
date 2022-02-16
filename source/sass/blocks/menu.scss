@@ -1,0 +1,50 @@
+.menu {
+  background-color: $dark-grey;
+  padding-top: 15px;
+  padding-bottom: 17px;
+}
+
+.menu__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+}
+
+.menu__item {
+  position: relative;
+  padding-right: 18px;
+}
+
+.menu__item:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 0;
+  width: 2px;
+  height: 77%;
+  background-color: $grey-light;
+  display: block;
+}
+
+.menu__item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: calc(100% - 18px);
+  height: 2px;
+  background-color: $grey-light;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.menu__item:hover::after {
+  opacity: 1;
+}
+
+.menu__link {
+  font-size: 18px;
+  line-height: 25px;
+}

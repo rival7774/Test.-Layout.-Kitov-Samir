@@ -1,0 +1,18 @@
+.link {
+  text-decoration: none;
+  color: $white;
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+.link__underline::after {
+  content: "";
+  width: 100%;
+  background-color: #e2e2e2;
+  display: block;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
